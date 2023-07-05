@@ -1,0 +1,70 @@
+
+.header img {
+    float: left;
+    width: 16.8%;
+    background: #555;
+}
+
+.header h1 {
+    background-image: url(../images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 5em;
+    background-position: right;
+    position: inherit;
+    background-blend-mode: inherit;
+    /* position: relative; */
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-bottom: 1em;
+    font-style: italic;
+    font-family: fantasy;
+    color: #0014ff;
+}
+
+.cholesterol-form {
+    border-block-end-color: blue;
+    width: 40%;
+    height: 265px;
+    border: aliceblue;
+    position: inherit;
+    padding: 1em;
+    margin: auto;
+    padding-inline: 2em;
+    background-image: url(../images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    shape-rendering: auto;
+    text-align: center;
+}
+
+
+.cholesterol-form button{
+    background-color: #ccb394;
+    position: relative;
+    color: #ce6045;
+    font-size: x-large;
+}
+
+.HDL {
+    font-style: normal;
+    font-size: 1.5em;
+    color: #ffe2c4;
+    padding: 1em;
+}
+
+.Trigycerides {
+    font-style: normal;
+    font-size: 1.5em;
+    color: #ffe2c4;
+    padding: 1em;
+}
+
+.ldl {
+    font-style: normal;
+    font-size: 1.5em;
+    color: #ffe2c4;
+    padding: 1em;
+}
+

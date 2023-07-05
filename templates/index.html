@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Africal-Lipid-Calculator</title>
-    <style>
-      /* Add your custom CSS styles here */
-    </style>
-  </head>
-  <body>
-    <h1>Cholesterol Calculator</h1>
+    <link rel="stylesheet" href="index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="manifest" href="../images/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+  <body style="background-image: url(../images/image5.jpg); background-repeat: no-repeat; background-size: cover;">
+    <header class=" header" data-section-them="blue">
+      <a href="#" >
+        <img src="../images/newlogo.png" alt="africalc logo">
+      </a>
+      <h1>Cholesterol Calculator</h1>
+             
+    </header>
+    
+    <form class="cholesterol-form" methods="POST">
+      <div class="ldl">
+        <label for="ldl">LDL Cholesterol:</label>
+        <input
+          type="number"
+          id="ldl"
+          placeholder="input must be in milligram"
+          required
+        /><br />
+      </div>
+      <div class="HDL">
+        <label for="hdl">HDL Cholesterol:</label>
+        <input type="number"
+          id="hdl"
+          placeholder="input must be in milligram"
+          required /><br />
+      </div>
 
-    <form id="cholesterol-form" methods="POST">
-      <label for="ldl">LDL Cholesterol:</label>
-      <input
-        type="number"
-        id="ldl"
-        placeholder="input must be in milligram"
-        required
-      /><br />
-
-      <label for="hdl">HDL Cholesterol:</label>
-      <input
-        type="number"
-        id="hdl"
-        placeholder="input must be in milligram"
-        required
-      /><br />
-
-      <label for="triglycerides">Triglycerides:</label>
-      <input
-        type="number"
-        id="triglycerides"
-        placeholder="input must be in milligram"
-        required
-      /><br />
-
-      <button type="submit">Calculate</button>
+      <div class="Trigycerides">
+        <label for="triglycerides">Triglycerides:</label>
+        <input
+          type="number"
+          id="triglycerides"
+          placeholder="input must be in milligram"
+          required
+        /><br />
+      </div>
+      <button type="submit"><b>Calculate</b></button>
     </form>
 
     <div id="result" style="display: none">
