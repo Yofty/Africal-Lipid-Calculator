@@ -2,6 +2,9 @@
             event.preventDefault();
             calculateCholesterol();
         });
+document.getElementById("submit").onclick = function () {
+    document.getElementById("cholesterol-form").style.display = "none";
+}
 
         function calculateCholesterol() {
             var ldl = parseInt(document.getElementById('ldl').value);
